@@ -1,0 +1,28 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+ 
+}
+
+.header{
+	z-index:99;
+}
+
+.container{
+	position: relative;
+	background-image: url("docbg.jpg");
+    height: 90vh;
+    background-size:cover;
+    background-position: center;
+}
+
+.container::after{
+	position: absolute;
+    content: '';
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background: rgba(35, 37, 40, 0.7);
+}

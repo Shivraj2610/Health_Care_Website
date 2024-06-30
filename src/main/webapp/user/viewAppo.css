@@ -1,0 +1,10 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.session{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
